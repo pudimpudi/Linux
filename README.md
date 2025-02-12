@@ -24,8 +24,5 @@ echo "Iniciando o script"
 echo "Seu nome de user é: $USER"
 #!exibição de valores de variavéis
 nome="João"
-echo "Olá, $nome!"````
-
-####### Passar saída para outros comandos
-
+echo "Olá, $nome!"
 
