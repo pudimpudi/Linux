@@ -26,3 +26,6 @@ echo "Seu nome de user é: $USER"
 nome="João"
 echo "Olá, $nome!"
 
+####### Passar saída para outros comandos
+
+
