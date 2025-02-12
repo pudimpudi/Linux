@@ -8,7 +8,7 @@
 
 Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas funcionalidades para facilitar meu aprendizado e lembrança desses, como também, ajudar indivíduos que desejam aprender a utilizar Linux. Bons estudos :)
 ## Básicos
-- echo -> permite que seja exibido mensagens ou textos na tela. Útil em scripts para gerar saídas, exibir mensagens informativas ou passar valores para outro comandos.
+- `echo` -> permite que seja exibido mensagens ou textos na tela. Útil em scripts para gerar saídas, exibir mensagens informativas ou passar valores para outro comandos.
   ```bash
   echo banana      saída: banana
 | opções | descrição | sequências de escape |
@@ -17,4 +17,11 @@ Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas fu
 | `-n` | em nova linha, o comando `echo` por padrão adiciona uma nova | `\t` -> Tabulação |
 | `-E` | Desativa a interpretação de caracteres especiais. Isso pode ser útil para exibir strings "cruas" | `\\\` -> Barra invertida literal |
 
+###### Uso em scripts
+```bash
+#!/bin/bash
+echo "Iniciando o script"
+echo "Seu nome de user é: $USER"
+nome="João"
+echo "Olá, $nome!"
 
