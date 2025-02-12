@@ -12,5 +12,6 @@ Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas fu
   ```bash
   echo banana      saída: banana
 | opções | descrição | sequências de escape |
+|---|---|---|
 | `-e` | Habilita a interpretação de sequências de escape como `\n`, `\t`, etc | `\n` -> Nova linha |
 |---|---|---|
