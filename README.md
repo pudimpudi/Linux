@@ -14,5 +14,7 @@ Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas fu
 | opções | descrição | sequências de escape |
 |---|---|---|
 | `-e` | Habilita a interpretação de sequências de escape como `\n`, `\t`, etc | `\n` -> Nova linha |
-| `-n` | em nova linha, o comando `echo` por padrão adiciona uma nova | \t -> Tabulação |
+| `-n` | em nova linha, o comando `echo` por padrão adiciona uma nova | `\t` -> Tabulação |
+| `-E` | Desativa a interpretação de caracteres especiais. Isso pode ser útil para exibir strings "cruas" | \\\ -> Barra invertida literal |
+
 
