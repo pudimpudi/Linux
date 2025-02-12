@@ -11,3 +11,5 @@ Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas fu
 - echo -> permite que seja exibido mensagens ou textos na tela. Útil em scripts para gerar saídas, exibir mensagens informativas ou passar valores para outro comandos.
   ```bash
   echo banana      saída: banana
+| opções | descrição | sequências de escape |
+|---|---|---|
