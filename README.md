@@ -22,6 +22,7 @@ Simplesmente um repositório para guardar as sintaxes de comandos Unix e suas fu
 #!/bin/bash
 echo "Iniciando o script"
 echo "Seu nome de user é: $USER"
+#!exibição de valores de variavéis
 nome="João"
 echo "Olá, $nome!"
 
